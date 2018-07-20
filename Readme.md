@@ -15,3 +15,8 @@ Unity2018.1とUnity2018.2で、挙動が違う！
 ## Unity2018.2.0
 
 ![](img/unity2018.2.0.png)
+
+## 対策
+
+OnRenderImage(s,d)のsのテクスチャをコピーして使う
+[https://github.com/sugi-cho/Unity-RenderTexture-Test/blob/master/Assets/RenderTexture/Scripts/Copy.cs#L26-L32](https://github.com/sugi-cho/Unity-RenderTexture-Test/blob/master/Assets/RenderTexture/Scripts/Copy.cs#L26-L32)
